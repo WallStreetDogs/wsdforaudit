@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.0;
+pragma solidity ^0.7.3;
 
 import "./lib/SafeMath.sol";
 import "./lib/Ownable.sol";
@@ -17,7 +17,7 @@ import "./lib/SafeERC20.sol";
  * 
  */
 
-contract DogcardFarmis Ownable {
+contract DogcardFarm is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
     
@@ -80,7 +80,7 @@ contract DogcardFarmis Ownable {
             user.pointsDebt = pointsBalance(msg.sender);
         }
         user.amount = user.amount.add(_amount);
-        user.lastUpdateAt = now;
+        user.lastUpdateAt = block.timestamp;
     }
     
     // claim nft if points threshold reached
@@ -92,7 +92,7 @@ contract DogcardFarmis Ownable {
         
         // deduct points
         user.pointsDebt = pointsBalance(msg.sender).sub(nft.price.mul(_quantity));
-        user.lastUpdateAt = now;
+        user.lastUpdateAt = block.timestamp;
         
         // transfer nft
         IERC1155(nft.contractAddress).safeTransferFrom(
@@ -136,7 +136,7 @@ contract DogcardFarmis Ownable {
         // update userInfo
         user.pointsDebt = pointsBalance(msg.sender);
         user.amount = user.amount.sub(_amount);
-        user.lastUpdateAt = now;
+        user.lastUpdateAt = block.timestamp;
         
         lpToken.safeTransfer(
             msg.sender,
@@ -156,7 +156,7 @@ contract DogcardFarmis Ownable {
     }
     
     function _unDebitedPoints(UserInfo memory user) internal view returns (uint256) {
-        return now.sub(user.lastUpdateAt).mul(emissionRate).mul(user.amount);
+        return block.timestamp.sub(user.lastUpdateAt).mul(emissionRate).mul(user.amount);
     }
     
     function nftCount() public view returns (uint256) {
