@@ -1080,7 +1080,7 @@ contract ERC1155 is Context, ERC165, IERC1155, IERC1155MetadataURI {
 }
 
 contract Dogcard is ERC1155, Ownable, ReentrancyGuard {
-    constructor() ERC1155("https://blockduelers.com/api/nft/{id}") {}
+    constructor() ERC1155("!API DATA WILL BE HERE! ") {}
 
     mapping(address => bool) public isMinter;
 
