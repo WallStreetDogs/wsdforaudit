@@ -1,9 +1,9 @@
 {
   "contractName": "SafeERC20",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.3+commit.9bfce1f6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"SafeERC20\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeERC20.sol\":\"SafeERC20\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/alexander87/Desktop/WSDG/contracts/lib/Address.sol\":{\"keccak256\":\"0x1c28fba760f10be0315b3f4b89e9039c07ae8d01f8e510f6f2b8fe72c2c6691d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d098a150ae1471354ae0c58c744c775ca79ec35a8497670c433367d9b39e681\",\"dweb:/ipfs/QmYmw8jaqNFFcb5xng9AdapBR7wLq87AmMPmfmmdDHVUdA\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/IERC20.sol\":{\"keccak256\":\"0xca31b09239c3fa1a02c4c92072e060033a438942f748f0f6d620c0b9583cdefe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://305c2d393ab5d9791b822927a6016251ff05878c80fc4b27700de4a349c4595c\",\"dweb:/ipfs/QmTyqhEmFa6SezweB4UuRv5f4fdZp7SkDuCdnNN7xztPW5\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeERC20.sol\":{\"keccak256\":\"0x533e5cbf5f4b8d8f74ce51df7dce688e64651f7510a2c8b954e444daa368db2d\",\"urls\":[\"bzz-raw://bababa93b09a33cf3e456d0d1f2cec51346ae4ba5ad728f75b16c9cbb7d0857d\",\"dweb:/ipfs/QmV8ZM7uBck8L4RkHCdDyMMumYcXwbcwNee3VsqbLS2uv6\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeMath.sol\":{\"keccak256\":\"0x113228db8bd6fa37cfa3593e2d8bf4054fbc2e56bfaf31b08525e8fa847d933d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1670bd24c62933d2a43d18f291f1988882e0941ec632da1a1e418ef90719aee0\",\"dweb:/ipfs/QmbFmm4V4qciQ4NMGwArEizLtzZD9fgZ8iPn3xCvzJw2Ux\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212207de924418b373704821b06be0be57ff4cb42d9477ecdebd7b4fe4a753877ee4464736f6c63430007030033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212207de924418b373704821b06be0be57ff4cb42d9477ecdebd7b4fe4a753877ee4464736f6c63430007030033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"SafeERC20\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeERC20.sol\":\"SafeERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/alexander87/Desktop/WSDG/contracts/lib/Address.sol\":{\"keccak256\":\"0xfd10f7cc0be9f03d56d131e53006a5b6a744d566ddffa7f166272361e9c16259\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://88b0e6cc29073f63103d768c9bfaf6f5bc3fc7c5cbf6ee642abbb8fdf9f414f6\",\"dweb:/ipfs/QmXmta8St92H9T2jwRaDfPi4TRC9ojj2HDAywsy9rAxDDp\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/IERC20.sol\":{\"keccak256\":\"0x7839f294e4806ad80c1e29ad58b29fc154e1f37774c287196355b0e1e0c9b9d6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d54e19d3cd7c5d18735b9b3b4c88e7c169534dc2dc536498523f29dea342985f\",\"dweb:/ipfs/QmcyMDrpbuqVEwg1rKSHY8QFTXMcXhDgX7bpDhdXtBrSDj\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeERC20.sol\":{\"keccak256\":\"0x533e5cbf5f4b8d8f74ce51df7dce688e64651f7510a2c8b954e444daa368db2d\",\"urls\":[\"bzz-raw://bababa93b09a33cf3e456d0d1f2cec51346ae4ba5ad728f75b16c9cbb7d0857d\",\"dweb:/ipfs/QmV8ZM7uBck8L4RkHCdDyMMumYcXwbcwNee3VsqbLS2uv6\"]},\"/home/alexander87/Desktop/WSDG/contracts/lib/SafeMath.sol\":{\"keccak256\":\"0x0b5ccc8306c46ce8f82d41477290115a06f4464b8448810c32de195807451d4d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://53abcc3766f10e467dbe80882a305dcd9171062e6581e09a62c654a4a7177a49\",\"dweb:/ipfs/QmQLEFG88aH9HF1GKg9n2R1YpDSJ117jic9M22Y4DQcebX\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202985ab1a8303d0ea0b1814b4ad6f62066e65974b64842e05e9da343ebc0ac48d64736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202985ab1a8303d0ea0b1814b4ad6f62066e65974b64842e05e9da343ebc0ac48d64736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -255,7 +255,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": -1,
+                            "referencedDeclaration": 4294967295,
                             "src": "752:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -564,7 +564,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": -1,
+                            "referencedDeclaration": 4294967295,
                             "src": "951:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -879,7 +879,7 @@
                                         "name": "this",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": -28,
+                                        "referencedDeclaration": 4294967268,
                                         "src": "1438:4:14",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_contract$_SafeERC20_$5687",
@@ -1069,10 +1069,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        -18,
-                        -18
+                        4294967278,
+                        4294967278
                       ],
-                      "referencedDeclaration": -18,
+                      "referencedDeclaration": 4294967278,
                       "src": "1389:7:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1201,7 +1201,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": -1,
+                            "referencedDeclaration": 4294967295,
                             "src": "1576:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -1455,7 +1455,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": -28,
+                                "referencedDeclaration": 4294967268,
                                 "src": "1795:4:14",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_SafeERC20_$5687",
@@ -1704,7 +1704,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": -1,
+                            "referencedDeclaration": 4294967295,
                             "src": "1858:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -1978,7 +1978,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": -28,
+                                "referencedDeclaration": 4294967268,
                                 "src": "2084:4:14",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_SafeERC20_$5687",
@@ -2227,7 +2227,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": -1,
+                            "referencedDeclaration": 4294967295,
                             "src": "2192:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -2541,10 +2541,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        -18,
-                        -18
+                        4294967278,
+                        4294967278
                       ],
-                      "referencedDeclaration": -18,
+                      "referencedDeclaration": 4294967278,
                       "src": "3240:7:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2786,10 +2786,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        -18,
-                        -18
+                        4294967278,
+                        4294967278
                       ],
-                      "referencedDeclaration": -18,
+                      "referencedDeclaration": 4294967278,
                       "src": "3458:7:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2954,7 +2954,7 @@
                                   "name": "abi",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": -1,
+                                  "referencedDeclaration": 4294967295,
                                   "src": "3654:3:14",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_abi",
@@ -3021,10 +3021,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              -18,
-                              -18
+                              4294967278,
+                              4294967278
                             ],
-                            "referencedDeclaration": -18,
+                            "referencedDeclaration": 4294967278,
                             "src": "3646:7:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3514,7 +3514,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": -1,
+                                      "referencedDeclaration": 4294967295,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -3865,7 +3865,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": -1,
+                                      "referencedDeclaration": 4294967295,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -4131,10 +4131,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                -18,
-                                -18
+                                4294967278,
+                                4294967278
                               ],
-                              "referencedDeclaration": -18,
+                              "referencedDeclaration": 4294967278,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4344,7 +4344,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": -28,
+                                                  "referencedDeclaration": 4294967268,
                                                   "type": "library SafeERC20",
                                                   "value": "this"
                                                 },
@@ -4527,7 +4527,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": -1,
+                                      "referencedDeclaration": 4294967295,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -4917,7 +4917,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": -28,
+                                          "referencedDeclaration": 4294967268,
                                           "type": "library SafeERC20",
                                           "value": "this"
                                         },
@@ -5073,7 +5073,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": -1,
+                                      "referencedDeclaration": 4294967295,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -5467,7 +5467,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": -28,
+                                          "referencedDeclaration": 4294967268,
                                           "type": "library SafeERC20",
                                           "value": "this"
                                         },
@@ -5638,7 +5638,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": -1,
+                                      "referencedDeclaration": 4294967295,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -5872,10 +5872,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                -18,
-                                -18
+                                4294967278,
+                                4294967278
                               ],
-                              "referencedDeclaration": -18,
+                              "referencedDeclaration": 4294967278,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -6221,10 +6221,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                -18,
-                                -18
+                                4294967278,
+                                4294967278
                               ],
-                              "referencedDeclaration": -18,
+                              "referencedDeclaration": 4294967278,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -6367,10 +6367,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        -18,
-                                        -18
+                                        4294967278,
+                                        4294967278
                                       ],
-                                      "referencedDeclaration": -18,
+                                      "referencedDeclaration": 4294967278,
                                       "type": "function (bool,string memory) pure",
                                       "value": "require"
                                     },
@@ -6418,7 +6418,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": -1,
+                                              "referencedDeclaration": 4294967295,
                                               "type": "abi",
                                               "value": "abi"
                                             },
@@ -6543,11 +6543,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.7.3+commit.9bfce1f6.Emscripten.clang"
+    "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-18T15:29:41.274Z",
+  "updatedAt": "2021-02-18T19:58:59.133Z",
   "devdoc": {
     "details": "Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
     "kind": "dev",
